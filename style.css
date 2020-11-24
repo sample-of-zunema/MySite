@@ -49,7 +49,187 @@ a {
   margin: 0 auto;
 }
 
-mv {
+#mv {
   width: 100%;
-  
+  height: 650px;
+  text-align: center;
+  color: #fafafa;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
 }
+
+.mv-title {
+  padding-top: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 64px;
+}
+
+.mv-text {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#portfolio {
+  background-color: #eceff1;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.heading-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.production-group {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.production:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+.production {
+  display: wrap;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+#feature {
+  background-size: cover;
+  background-position: center;
+}
+
+.strength-group {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strength:nth-child(3n) {
+  margin-right: 0;
+}
+
+.strength {
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+#profile {
+  font-size: 32px;
+  color: #000000;
+  margin: 90px 0 8px 0;
+}
+
+.profile-group {
+  padding: 30px 0 90px 0;
+}
+
+.left-content {
+  width: 50%;
+  float: left;
+}
+
+.my-face {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+
+.right-content {
+  width: 50%;
+  float: right;
+}
+
+.discription-title {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.discription-title:first-child {
+  margin-top: 0;
+}
+
+.discription-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.
